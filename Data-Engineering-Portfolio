@@ -1,0 +1,42 @@
+📦 Data-Engineering-Portfolio
+│
+├── 📂 01_ETL_Pipeline_Python
+│   ├── data/                  # Sample datasets
+│   ├── notebooks/             # Jupyter notebooks for development
+│   ├── scripts/               # Python scripts for ETL
+│   ├── README.md              # Project overview, setup, and results
+│   └── requirements.txt       # List of Python dependencies
+│
+├── 📂 02_Sales_Data_Warehouse
+│   ├── sql/                   # SQL queries for the data warehouse
+│   ├── dbt/                   # dbt models and configurations
+│   ├── README.md              
+│   └── schema_design.png      # ERD diagram of database design
+│
+├── 📂 03_Real_Time_Log_Analytics
+│   ├── spark_scripts/         # PySpark scripts
+│   ├── data/                  # Sample log data
+│   ├── README.md              
+│   └── requirements.txt       
+│
+├── 📂 04_Cloud_ETL_Pipeline
+│   ├── lambda/                # AWS Lambda scripts
+│   ├── redshift/              # Redshift schema
+│   ├── README.md              
+│   └── architecture_diagram.png  
+│
+├── 📂 05_Automated_ETL_Airflow
+│   ├── dags/                  # Airflow DAGs
+│   ├── docker-compose.yml     # Airflow container setup
+│   ├── README.md              
+│   └── airflow_monitoring/    # Prometheus & Grafana configurations
+│
+├── 📂 06_Real_Time_Twitter_Analysis
+│   ├── kafka/                 # Kafka producer and consumer setup
+│   ├── spark_streaming/       # Spark streaming jobs
+│   ├── README.md              
+│   └── dashboards/            # Grafana dashboard configuration
+│
+├── 📄 README.md                # Main repository overview
+├── 📄 LICENSE                  # (Optional) Licensing info
+└── 📄 CONTRIBUTING.md          # (Optional) Guidelines for collaboration
